@@ -2,7 +2,9 @@ import { NgModule, ModuleWithProviders } from '@angular/core';
 import { CommonModule } from '@angular/common';
 import { DBConfig, NgxIndexedDBModule } from 'ngx-indexed-db';
 import { GeldiHttpClient } from './geldi-be-mock.service';
-import { dbConfig } from './db.config';
+import { dbConfig } from './db-config';
+
+
 
 export interface LocalDbConfig {
   table: string;
