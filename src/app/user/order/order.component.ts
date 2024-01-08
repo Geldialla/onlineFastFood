@@ -2,12 +2,12 @@ import { Component } from '@angular/core';
 import { CommonModule } from '@angular/common';
 
 @Component({
-  selector: 'app-fastfood',
+  selector: 'app-order',
   standalone: true,
   imports: [CommonModule],
-  templateUrl: './fastfood.component.html',
-  styleUrl: './fastfood.component.css'
+  templateUrl: './order.component.html',
+  styleUrl: './order.component.css'
 })
-export class FastfoodComponent {
+export class OrderComponent {
 
 }
